@@ -1,0 +1,8 @@
+name: MakudHandsNotAx
+version: 1.12.2
+main: dev.whymakud.handsnotax.Main
+authors: [ whymakud ]
+commands:
+  makudhandsnotax:
+    description: 'Единственная команда плагина MakudHandsNotAx, для его перезагрузки'
+    usage: /<command>
