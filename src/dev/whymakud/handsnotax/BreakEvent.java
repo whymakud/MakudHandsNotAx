@@ -9,7 +9,6 @@ public class BreakEvent implements Listener
 {
     @EventHandler
     public void onBreak(BlockBreakEvent e) {
-        e.getPlayer();
         List<String> items = (List<String>)Main.getCongig().getStringList("axe-list");
         if (e.getBlock().getType().name().contains("LOG") && !items.contains(e.getPlayer().getItemInHand().getType().name().toLowerCase())) {
             e.getPlayer().damage((double)this.random_damage());
